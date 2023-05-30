@@ -7,7 +7,6 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     responseTimeout: 10000,
     requestTimeout: 10000,
-    reporter: "nyan",
     setupNodeEvents(on, config) {
       on('before:run', async (details) => {
         console.log('override before:run');
